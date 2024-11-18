@@ -213,6 +213,7 @@ img {
 }
 .nav-bar__desktop {
   display: flex;
+  margin-top: 2rem;
 }
 .nav-bar__mobile {
   display: flex;
@@ -220,8 +221,8 @@ img {
 }
 
 @media (min-width: 768px) {
-  .nav-bar__mobile {
-    display: none;
+  .nav-bar__desktop {
+    margin-top:0;
   }
 }
 .menu__button:checked + .hambergur-menu{
