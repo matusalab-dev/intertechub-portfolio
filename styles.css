@@ -711,3 +711,11 @@ img {
     height: 6rem;
   }
 }
+
+.comming-soon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
