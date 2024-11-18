@@ -596,6 +596,7 @@ img {
   align-items: center;
   gap: 2.5rem;
 }
+
 .footer__top__heading {
   font-size: 4.5rem;
   line-height: 1;
@@ -618,16 +619,25 @@ img {
   align-items: flex-start;
   margin-block: 1.5rem;
 }
+.footer__top__social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 4rem;
+}
 @media (min-width: 475px) {
   .footer__top__heading {
     font-size: 3.5rem;
     line-height: 1;
+    justify-content: space-between;
   }
-  justify-content: space-between;
-}
 }
 @media (min-width: 640px) {
   .footer__bottom {
     flex-direction: row;
+  }
+  .footer__bottom__social {
+    height: 6rem;
   }
 }
