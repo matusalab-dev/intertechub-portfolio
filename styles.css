@@ -179,6 +179,9 @@ img {
   color: var(--color--heading);
   transition: letter-spacing 0.15s ease-out;
 }
+.cta-link--footer {
+  display: flex;
+}
 /* hover:tracking-wider*/
 .cta-link::after {
   content: "";
@@ -652,6 +655,9 @@ img {
   font-weight: var(--font-weight-100) !important;
 }
 .availability {
+  font-weight: var(--font-weight-100);
+}
+.tel {
   font-weight: var(--font-weight-100);
 }
 @media (min-width: 475px) {
